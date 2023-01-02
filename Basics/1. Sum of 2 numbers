@@ -1,0 +1,11 @@
+public class Main
+{
+  public static void main(String  []arg)
+  {
+    int sum,a,b;
+    a=2;
+    b=60;
+    sum=a+b;
+    System.out.print(sum);
+  }
+}
