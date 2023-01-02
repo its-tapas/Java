@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main
+{
+  public static void main(String  []arg)
+  {
+    Scanner sc=new Scanner(System.in);
+    int a,b,temp;
+    System.out.print("Enter values of a : ");
+    a=sc.nextInt();  
+    System.out.print("Enter values of b : ");
+    b=sc.nextInt();
+    temp=a;
+    a=b;
+    b=temp;
+    System.out.println("a="+a+"\nb="+b);
+  }
+}
