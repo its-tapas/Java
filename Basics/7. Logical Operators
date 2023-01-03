@@ -1,0 +1,24 @@
+// Logical Operators
+import java.util.Scanner;
+public class Main
+{
+  public static void main(String args[])
+  {
+    Scanner sc=new Scanner(System.in);
+    int a,b;
+    System.out.print("enter Value of a : ");
+    a=sc.nextInt();
+    System.out.print("enter Value of b : ");
+    b=sc.nextInt();
+    System.out.println("a>10 && b<a : "+(a>10 && b<a));
+    System.out.println("a>10 || b<a : "+(a>10 || b<a));
+    System.out.println("!(a>20) : "+ (!(a>20)));
+}
+}
+
+//output
+enter Value of a :  20
+enter Value of b :  10
+a>10 && b<a : true
+a>10 || b<a : true
+!(a>20) : true
