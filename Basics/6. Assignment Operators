@@ -1,0 +1,28 @@
+// Assignment Operators
+import java.util.Scanner;
+public class Main
+{
+  public static void main(String args[])
+  {
+    Scanner sc=new Scanner(System.in);
+    int a,b;
+    System.out.print("enter Value of a : ");
+    a=sc.nextInt();
+    System.out.print("enter Value of b : ");
+    b=sc.nextInt();
+    System.out.println(a+" += "+(a+=b));
+    System.out.println(a-=b);
+    System.out.println(a/=10);
+    System.out.println(a*=b);
+    System.out.println(a%=b);
+  }
+}
+
+//output
+enter Value of a :  10
+enter Value of b :  5
+10 += 15
+10
+1
+5
+0
