@@ -1,4 +1,4 @@
-// Assignment Operators
+// Relational Operators
 import java.util.Scanner;
 public class Main
 {
