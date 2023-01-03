@@ -1,0 +1,28 @@
+// Arithemetic Operators
+import java.util.Scanner;
+public class Main
+{
+  public static void main(String args[])
+  {
+    Scanner sc=new Scanner(System.in);
+    int a,b;
+    System.out.print("enter Value of a : ");
+    a=sc.nextInt();
+    System.out.print("enter Value of b : ");
+    b=sc.nextInt();
+    System.out.println(a+" + "+b+" = "+(a+b));
+    System.out.println(a+" - "+b+" = "+(a-b));
+    System.out.println(a+" / "+b+" = "+(a/b));
+    System.out.println(a+" * "+b+" = "+(a*b));
+    System.out.println(a+" % "+b+" = "+(a%b));
+  }
+}
+
+//output
+enter Value of a :  20
+enter Value of b :  4
+20 + 4 = 24
+20 - 4 = 16
+20 / 4 = 5
+20 * 4 = 80
+20 % 4 = 0
