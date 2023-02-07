@@ -1,0 +1,27 @@
+public class MyClass {
+    public static void main(String args[]) {
+        int n=6,middle=n-1;
+        for(int i=0;i<n;i++){
+            for(int j=-1;j<(2*n);j++){
+                if(middle==j-i || middle==j+i )
+                    System.out.print("@");
+                else if((middle>=j-i && middle<=j+i ) && i==3)
+                    System.out.print("@");
+                else
+                    System.out.print(" ");
+            }
+        System.out.println();
+        }
+    }
+}
+
+
+/*  Ouput
+      @      
+     @ @     
+    @   @    
+   @@@@@@@   
+  @       @  
+ @         @ 
+ 
+*/
